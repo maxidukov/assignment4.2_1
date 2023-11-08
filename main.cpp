@@ -1,6 +1,6 @@
 #include <iostream>
 
-long long fib_rec(int);
+long fib_rec(int);
 //long fib_cyc(int);
 
 
@@ -35,7 +35,7 @@ int main(void) {
   }
 }*/
 
-long long fib_rec(int num){
+long fib_rec(int num){
   if(num==0){
     return 0;
   }else if(num==1||num==2){
